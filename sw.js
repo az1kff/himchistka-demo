@@ -1,5 +1,5 @@
 const BASE = "/himchistka-demo";
-const CACHE = "hc-1794762935011";
+const CACHE = "hc-1794764949628";
 const OFFLINE = `${BASE}/offline/`;
 const PRIVATE = [`${BASE}/order/`, `${BASE}/done/`, `${BASE}/checkout/`];
 const STATIC = [`${BASE}/_next/static/`, `${BASE}/models/`, `${BASE}/posters/`, `${BASE}/icons/`];

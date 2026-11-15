@@ -1,5 +1,5 @@
-:HL["/himchistka-demo/_next/static/chunks/134j73dr4pz2w.css","style"]
+:HL["/himchistka-demo/_next/static/chunks/2q0mlio6i7ikc.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"cart","h":96,"c":"$Q2"}]]
-0:{"b":"VeCucYA54B30n82A3BnxO","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"I5S4tr0qlS314jBJ8T79R","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
