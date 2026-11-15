@@ -1,7 +1,7 @@
 const BASE = "/himchistka-demo";
-const CACHE = "hc-1794764949628";
+const CACHE = "hc-1794767447518";
 const OFFLINE = `${BASE}/offline/`;
-const PRIVATE = [`${BASE}/order/`, `${BASE}/done/`, `${BASE}/checkout/`];
+const PRIVATE = [`${BASE}/order/`, `${BASE}/done/`, `${BASE}/checkout/`, `${BASE}/admin/`];
 const STATIC = [`${BASE}/_next/static/`, `${BASE}/models/`, `${BASE}/posters/`, `${BASE}/icons/`];
 
 self.addEventListener("install", (e) => {
@@ -47,4 +47,16 @@ self.addEventListener("fetch", (e) => {
         .catch(() => caches.match(e.request).then((hit) => (!isPrivate && hit) || caches.match(OFFLINE))),
     );
   }
+});
+
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = e.notification.data?.url ?? `${BASE}/admin/`;
+  e.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+      const open = list.find((c) => c.url.includes(`${BASE}/admin`));
+      if (open) return open.focus().then(() => open.navigate(url));
+      return self.clients.openWindow(url);
+    }),
+  );
 });

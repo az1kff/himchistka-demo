@@ -1,0 +1,6 @@
+:HL["/himchistka-demo/_next/static/chunks/1933bs5cu3ex7.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":"prices","h":96,"c":"$Q3"}]]
+1:[["children",{"s":"admin","h":96,"c":"$Q2"}]]
+0:{"b":"mIY_E5hBNf2n1kAZ6PiRv","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

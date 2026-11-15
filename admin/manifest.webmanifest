@@ -1,0 +1,24 @@
+{
+  "name": "Кабинет — Химчистка «Пример»",
+  "short_name": "Кабинет",
+  "description": "Заявки, цены и выезды",
+  "lang": "ru",
+  "start_url": "/himchistka-demo/admin/",
+  "scope": "/himchistka-demo/admin/",
+  "display": "standalone",
+  "background_color": "#F3F5FF",
+  "theme_color": "#2E4BFF",
+  "icons": [
+    {
+      "src": "/himchistka-demo/icons/admin-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/himchistka-demo/icons/admin-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "/himchistka-demo/admin/"
+}
